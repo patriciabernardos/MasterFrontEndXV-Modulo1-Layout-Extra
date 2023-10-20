@@ -1,0 +1,98 @@
+:root {
+    --verde-claro: #cdde1c;
+    --verde-oscuro: #393e06;
+    --beige: #f9fbe3;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    & .toolbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    & .page-title {
+        background-color: #cdde1c;
+        color: white;
+        font-size: 1.25em;
+        padding: 0.75em;
+    }
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+    grid-template-rows: auto 1fr auto;
+
+    & nav {
+        background-color: var(--verde-oscuro);
+    }
+
+    & nav .menu-container {
+        position: sticky;
+        top:0;
+    }
+
+    & nav .menu-container ul {
+        list-style: none;
+        padding: 0em;
+        margin: 0;
+    }
+
+    & nav .menu-container li {
+        background-color: #f9fbe3;
+        padding: 0.5em;
+        border: 0.25px var(--verde-oscuro) solid;
+    }
+
+    & nav .menu-container .menu-title {
+        color: var(--beige);
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        height: inherit;
+        margin: 1em;
+    }
+}
+
+main {
+    background-color: lightgray;
+
+
+    & .list {
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      grid-template-rows: repeat(3) ;
+      grid-auto-flow: row;
+     
+
+        & .card {
+            background-color: white;
+            width: 15em;
+            height: 10em;
+            border: 1px black solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 3em;
+            text-align: center;
+
+            & img {
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: var(--beige);
+    padding: 1em;
+}

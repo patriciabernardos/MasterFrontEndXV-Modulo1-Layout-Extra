@@ -1,0 +1,5 @@
+4
+82C:\Users\patri\Documents\GitHub\MasterFrontEndXV-Modulo1-Layout-Extra\package.json133422774206414115 0
+85C:\Users\patri\Documents\GitHub\MasterFrontEndXV-Modulo1-Layout-Extra\src\styles.scss133422773703624300 0
+73C:\Users\patri\Documents\GitHub\MasterFrontEndXV-Modulo1-Layout-Extra\src133422774548295479 1
+84C:\Users\patri\Documents\GitHub\MasterFrontEndXV-Modulo1-Layout-Extra\src\index.html133422750759955693 0
